@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.4/dist/css/uikit.min.css" />
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.4/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.4/dist/js/uikit-icons.min.js"></script>
+
+    <title>Ricca!</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="uk-navbar-container" uk-navbar>
+            <div class="uk-navbar-left">
+                <ul class="uk-navbar-nav">
+                    <li><a href="" class="uk-navbar-item uk-logo"><img src="./images/ricca-logo.png" /></a></li>
+                </ul>
+            </div>
+        </div>
+        <div uk-grid>
+            <div class="uk-width-1-1">
+                <div uk-slideshow="animation: fade;min-height: 300;max-height: 600;autoplay: true;pause-on-hover: false;">
+                    <ul class="uk-slideshow-items">
+                        <li>
+                            <img src="./images/minecraft-1.jpg" alt="" uk-cover>
+                            <div class="uk-position-center uk-position-small">
+                                <h1 style="color: white;">Let's Ricca!</h1>
+                                <p><a class="uk-button uk-button-danger uk-align-center" href="#">参加</a></p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./images/minecraft-2.jpg" alt="" uk-cover>
+                            <div class="uk-position-center uk-position-small">
+                                <h1 style="color: white;">Let's Ricca!</h1>
+                                <p><a class="uk-button uk-button-danger uk-align-center" href="#">参加</a></p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./images/minecraft-3.png" alt="" uk-cover>
+                            <div class="uk-position-center uk-position-small">
+                                <h1 style="color: white;">Let's Ricca!</h1>
+                                <p><a class="uk-button uk-button-danger uk-align-center" href="#">参加</a></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="uk-section uk-section-muted uk-section-large">
+            <div class="uk-container">
+                <h3>詳しく</h3>
+                <div class="uk-grid-match uk-child-width-1-2@m uk-light" uk-grid>
+                    <div>
+                        <a class="uk-button uk-button-large" href="#" style="background-color: rgb(111, 155, 180);">ルールを確認する</a>
+                    </div>
+                    <div>
+                        <a class="uk-button uk-button-large" href="#" style="background-color: rgb(111, 155, 180);">OPの紹介</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="uk-width-large-1-1 uk-text-center footer-copyright uk-light" style="background-color: rgb(45, 69, 68);">
+            <small>&copy;2019-2020 Ricca!</small>
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</body>
+</html>
