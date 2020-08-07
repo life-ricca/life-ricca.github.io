@@ -58,7 +58,24 @@
   display: none;
 }
 
+body {
+  background-color: #32383b;
+}
+
 .rule {
   text-align: center;
   margin-top: 50px;
+}
+
+.rule p {
+  padding: 15px;
+  margin: 30px 15%;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.atten {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
 }
